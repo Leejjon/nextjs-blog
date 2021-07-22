@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="container" style={{backgroundColor: "black"}}>
+    <div className="container">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main style={{backgroundColor: "black"}}>
         <h1 className="title">
           Read{' '}
           <Link href="/posts/first-post">
