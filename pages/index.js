@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container" style={{backgroundColor: "black"}}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
